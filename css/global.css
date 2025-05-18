@@ -15,12 +15,12 @@
    --text-color-secondary: #CBD5E1;
 
    --font-default: 'Archivo', sans-serif;
-   --h1: 800 clamp(24px, 1.85vw, 32px)/135% var(--font-default);
-   --h2: 800 clamp(16px, 1.5vw, 22px)/140% var(--font-default);
-   --h2: 800 clamp(14px, 1.35vw, 20px)/140% var(--font-default);
-   --text-span: 600 clamp(14px, 1.35vw, 20px)/145% var(--font-default);
-   --text: 400 clamp(16px, 1.5vw, 22px)/140% var(--font-default);
-   --text-small: 400 clamp(14px, 1.35vw, 20px)/160% var(--font-default);
+   --h1: 800 24px/135% var(--font-default);
+   --h2: 800 16px/140% var(--font-default);
+   --h3: 800 14px/140% var(--font-default);
+   --text-span: 600 14px/145% var(--font-default);
+   --text: 400 16px/140% var(--font-default);
+   --text-small: 400 14px/160% var(--font-default);
 }
 
 body {
@@ -57,6 +57,7 @@ img {
 
 main {
    margin-top: 40px;
+   gap: 80px;
 }
 
 .content-tag {
